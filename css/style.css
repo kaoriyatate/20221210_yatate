@@ -12,30 +12,15 @@
   text-align: justify;
   
 }
-.header_nav_item_6{
-  margin-right: -900px;
+.header_nav_item {
+  margin-right: 20px;
 
-}
-.header_nav_item_5 {
-  margin-right: 70px;
-}
-.header_nav_item_4 {
-  margin-right: 70px;
-}
-.header_nav_item_3 {
-  margin-right: 70px;
-}
-.header_nav_item_2 {
-  margin-right: 70px;
-}
-.header_nav_item_1 {
-  margin-right: 70px;
 }
 
 .main_content_item {
   margin-top: 50px;
-  margin-left: 65%;
-  width: 1930px;
+  margin-left: 50%;
+  width: 100%;
   height: 150px;
 
 }
