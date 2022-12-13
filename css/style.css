@@ -1,3 +1,4 @@
+
 .header_logo {
   width: 150px;
   margin-left: 40px;
@@ -15,6 +16,9 @@
 .header_nav_item {
   margin-right: 20px;
 
+}
+main {
+  overflow: hidden;
 }
 
 .main_content_item {
@@ -583,35 +587,50 @@ img {
   color: dimgray;
 
 }
+.unit {
+  display: flex;
+  justify-content: flex-start;
+  
+}
 
+
+
+.section_unit_work {
+  width: 50%;
+
+}
 
 
 .section_unit_work_photo {
-  width: 50%;
+  width: 100%;
   
-  ;
 }
 .section_unit_work_title {
   font-size: 30px;
   display: block;
-  margin-top: -150px;
-  margin-left: 20%;
-  color: #fff;
   font-weight: bold;
+  color: #fff;
+  margin-top: -160px;
+  text-align: center;
+
+  
+}
+.section_unit_interview {
+  width: 50%;
   
 }
 .section_unit_interview_photo {
-  width: 50%;
-  margin-left: 50%;
-  margin-top: -196px;
-  
+  width: 100%;
+
+
+
 
 }
 .section_unit_interview_title {
   font-size: 30px;
   display: block;
   font-weight: bold;
-  margin-left: 70%;
+  text-align: center;
   margin-top: -160px;
   color: #fff;
 }
