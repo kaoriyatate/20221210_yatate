@@ -20,7 +20,7 @@
 .main_content_item {
   margin-top: 50px;
   margin-left: 50%;
-  width: 100%;
+  width: 50%;
   height: 150px;
 
 }
@@ -30,18 +30,18 @@ img {
 .main_content_title {
   font-family: 'IBM Plex Sans JP', sans-serif;
     font-family: 'Indie Flower', cursive;
-    font-size: 90px;
-    font-weight: lighter;
+    font-size: 50px;
     color: #c71585;
-    margin-left: 510px;
-    margin-top: -20px;
-    line-height: 200px;  
+    margin-left: 430px;
+    margin-top: -100px;
+    line-height: 100px;
+    font-weight: lighter;
 }
 .main_content_title_item {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: #c71585;
-  margin-left: 510px;
+  margin-left: 430px;
   margin-top: 50px;
   letter-spacing: 0.1em;
 
@@ -52,9 +52,9 @@ span {
 
 .main_content_text_item {
   color: dimgray;
-  margin-left: 510px;
+  margin-left: 430px;
   margin-top: 20px;
-  letter-spacing: 0.1em;
+  
 }
 
 .section_news_tab {
@@ -76,13 +76,14 @@ span {
   border-spacing: 0;
   border-top:2px solid dimgray;
   table-layout: fixed;
-
+  margin: 0 auto;
   border-collapse: collapse;
+  width: 850px;
 }
 .section_news_list_item_date {
   border-bottom: 1px solid dimgray;
-  letter-spacing: 0.1em;
-  width: 200px;
+  width: 150px;
+  text-align: left;
   
 
 
@@ -90,10 +91,10 @@ span {
 }
 .news {
   border-bottom: 2px solid dimgray;
-  width: 1000px;
-  height: 350px;
+  width: 850px;
+  height: 370px;
   display: block;
-  margin-left: 600px;
+  margin: 0 auto;
   
 }
 
@@ -102,7 +103,7 @@ span {
     line-height: 50px;
     display: flex;
     justify-content: left;
-    width: 800px;
+    width: 700px;
     border-bottom: 1px solid dimgray;
   
 
@@ -127,8 +128,9 @@ span {
 }
 .about {
   background-color: #dcdcdc;
-  width: 2580px;
-  height: 600px;
+  width: 100%;
+  height: 500px;
+
   margin-top: 100px;
 
 }
@@ -138,34 +140,35 @@ span {
     color: #c71585;
     font-size: 10px;
     text-align: center;
-    padding: 30px;
-    margin-right: 300px;
+    padding-top: 30px;
+
 }
 .section_about_title {
   font-size: 20px;
   color: dimgray;
   text-align: center;
-  margin-right: 300px;
+  margin-top: 20px;
+
 
 }
 .section_about_category_item_photo {
-width: 600px;
-margin-top: 50px;
-margin-left: 50%;
+width: 30%;
+margin-top: 70px;
+margin-left: 55%;
 
 }
 .section_about_category_text_item {
   line-height: 25px;
-  margin-top: -400px;
-  margin-left: 500px;
   color: dimgray;
+  margin-left: 15%;
+  margin-top: -260px;
 
 
 }
 .section_about_category_text_coption {
   line-height: 25px;
   margin-top: 80px;
-  margin-left: 500px;
+  margin-left: 15%;
   color: dimgrey;
 
 }
@@ -173,22 +176,21 @@ img {
   width: 100%;
 }
 
-.sevice {
-  width: 1800px;
-  height: 700px;
-}
+
+
 .section_sevice_tab {
   font-family: 'IBM Plex Sans JP', sans-serif;
     font-family: 'Indie Flower', cursive;
     color: #c71585;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 220px;
 }
 .section_sevice_title {
   font-size: 20px;
   color: dimgray;
   margin-top: 15px;
-  margin-left: 500px;
+  margin-left: 220px;
+  margin-bottom: 20px;
 }
 
 .section_sevice_category_left {
@@ -199,19 +201,19 @@ img {
 }
 .section_sevice_category_left_image {
   width: 20%;
-  margin-top: 20px;
-  margin-left: 240px;
+  margin-top: 30px;
+  margin-left: 200px;
 }
 
 .section_sevice_category_left_text {
-  margin-top: -230px;
-  margin-left: 120px;
+  margin-top: -200px;
+  margin-left: 50px;
 }
 .section_sevice_category_left_text_title {
   font-size: large;
   font-weight: bold;
   color: #fff;
-  margin-left: 140px;
+  margin-left: 160px;
 
 
 }
@@ -233,8 +235,8 @@ img {
 
   }
 .section_sevice_category_right_top_text {
-  margin-top: -345px;
-  margin-left: 200px;
+  margin-top: -390px;
+  margin-left: 30%;
 }
 .section_sevice_category_right_top_text_title {
   font-size: large;
@@ -245,6 +247,7 @@ img {
 .section_sevice_category_right_top_text_item {
   color: #fff;
   margin-top: 20px;
+  
 
 
 }
@@ -264,10 +267,11 @@ img {
 .section_sevice_category_right_bottom_text {
   position: relative;
   top:-150px;
-  left: 850px;
-  
-  
+  right: -130%
 }
+  
+  
+
 .section_sevice_category_right_bottom_text_title {
   font-size: large;
   font-weight: bold;
@@ -279,10 +283,10 @@ img {
 }
 .section_sevice_container {
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 60% 60%;
   grid-template-columns: 1fr 1fr;
-  margin-left: 500px;
-  margin-top: 50px;
+  margin: 0 auto;
+  width: 90%;
   
   
   
@@ -292,23 +296,24 @@ img {
 
 .post {
   background-color: lightgray;
-  width: 2580px;
+  width: 100%;
   height: 800px;
-  padding-top: 100px;
+  margin-top: 100px;
 
 }
 .section_post_tab {
   font-family: 'IBM Plex Sans JP', sans-serif;
     font-family: 'Indie Flower', cursive;
     color: #c71585;
-    margin-left: 650px;
+    margin-left: 220px;
+    padding-top: 50px;
 
     
 }
 .section_post_title {
   font-size: 20px;
   color: dimgray;
-  margin-left: 650px;
+  margin-left: 220px;
   margin-top: 30px;
 }
 .section_post_card_left {
@@ -316,7 +321,7 @@ img {
   border-radius: 20px;
   width: 300px;
   height: 350px;
-  margin-right: 200px;
+  margin-right: 50px;
   margin-top: 100px;
 
 
@@ -378,8 +383,8 @@ img {
     border-radius: 20px;
     width: 300px;
     height: 350px;
-    margin-left: 200px;
     margin-top: 100px;
+    margin-left: 50px;
     
 
 }
@@ -447,8 +452,8 @@ img {
   width: 180px;
   text-align: center;
   background-color: #fff;
+  margin: 0 auto;
   margin-top: 100px;
-  margin-left: 1150px;
   padding: 20px;
   font-weight: bold;
 }
@@ -457,68 +462,68 @@ img {
     font-family: 'Indie Flower', cursive;
     color: #c71585;
     margin-top: 100px;
-    margin-left: 700px;
+    margin-left: 350px;
 }
 .section_profile_title {
   font-size: 20px;
   color: dimgray;
   margin-top: 20px;
-  margin-left: 700px;
+  margin-left: 350px;
   
 }
 .section_profile_list {
   border: 1px solid dimgray;
-  margin-top: 50px;
-  margin-left: 700px;
-  width: 1100px;
-  height: 400px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+
 
 
 }
 .section_profile_list_company_tab {
-  border: 1px solid rgb(169, 165, 165);;
+  border: 1px solid rgb(169, 165, 165);
   background-color: lightgray;
   line-height: 50px;
-  width: 200px;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 10px;
   color: dimgray;
 }
 
 .section_profile_list_name_tab {
-  border: 1px solid rgb(169, 165, 165);;
+  border: 1px solid rgb(169, 165, 165);
   background-color: lightgray;
   line-height: 50px;
   width: 200px;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 10px;
   color: dimgray;
 }
 .section_profile_list_address_tab {
-  border: 1px solid rgb(169, 165, 165);;
+  border: 1px solid rgb(169, 165, 165);
   background-color: lightgray;
   line-height: 50px;
   width: 200px;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 10px;
   color: dimgray;
 }
 .section_profile_list_people_tab {
-  border: 1px solid rgb(169, 165, 165);;
+  border: 1px solid rgb(169, 165, 165);
   background-color: lightgray;
   line-height: 50px;
   width: 200px;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 10px;
   color: dimgray;
 }
 .section_profile_list_tel_tab {
-  border: 1px solid rgb(169, 165, 165);;
+  border: 1px solid rgb(169, 165, 165);
   background-color: lightgray;
   line-height: 50px;
   width: 200px;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 10px;
   color: dimgray;
 }
 .section_profile_list_money_tab {
@@ -527,7 +532,7 @@ img {
   line-height: 50px;
   width: 200px;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 10px;
   color: dimgray;
 }
 .section_profile_list_company_item {
@@ -578,59 +583,58 @@ img {
   color: dimgray;
 
 }
-.profile {
-  width: 2580px;
-  height: 600px;
 
-}
+
+
 .section_unit_work_photo {
-  width: 1290px;
-  margin-bottom: -50px
+  width: 50%;
+  
   ;
 }
 .section_unit_work_title {
   font-size: 30px;
   display: block;
-  margin-top: -240px;
-  margin-left: 520px;
+  margin-top: -150px;
+  margin-left: 20%;
   color: #fff;
   font-weight: bold;
   
 }
 .section_unit_interview_photo {
-  width: 1290px;
-  margin-left: 1290px;
-  margin-top: -310px;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -196px;
+  
 
 }
 .section_unit_interview_title {
   font-size: 30px;
   display: block;
   font-weight: bold;
-  margin-left: 1800px;
-  margin-top: -310px;
+  margin-left: 70%;
+  margin-top: -160px;
   color: #fff;
 }
-.section_unit_interview {
-  width: 2580px;
-  height: 500px;
 
-}
+
+
 .section_link_more {
   font-weight: bold;
   color: dimgray;
   font-size: large;
-  margin-left: 1100px;
   white-space: nowrap;
+  margin-top: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+  
   
 }
 .section_link_item {
-  margin-left: 2%;
+  margin-bottom: 20px;
   width: 3px;
   height: 50px;
   background-color: #c71585;
-  margin-left: 1280px;
-  margin-top: 10px;
+  margin: 0 auto;
 }
 .section_link_button {
   background: linear-gradient(90deg,#ff1493,#ac026e);
@@ -641,7 +645,7 @@ img {
   width: 160px;
   box-shadow: -1px 8px #9c0264;
   text-align: center;
-  margin-left: 1150px;
+  margin: 0 auto;
   margin-top: 20px;
 
 }
@@ -657,7 +661,7 @@ img {
 }
 .footer_text {
   background-color: lightgray;
-  width: 2580px;
+  width:100%;
   margin-top: 100px;
   display: block;
   text-align: center;
